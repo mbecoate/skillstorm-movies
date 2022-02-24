@@ -17,7 +17,7 @@ spec:
       containers:
       - name: movie-app
         imagePullPolicy: Always
-        image: bjgomes/movie_apps
+        image: mbecoate/movie_app
         ports:
         - containerPort: 3000
 
